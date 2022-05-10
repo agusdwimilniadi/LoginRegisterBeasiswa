@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@700&family=Poppins:wght@600&display=swap");
+
 .login.login-3 .login-aside {
   background-color: #ffffff;
   -webkit-box-shadow: 0px 0px 40px rgba(177, 187, 208, 0.15);
@@ -351,4 +353,53 @@
     min-height: 300px !important;
     background-size: 350px;
   }
+}
+
+.text-judul {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.text-montserrat {
+  font-family: "Montserrat", sans-serif !important;
+}
+.btn-custom-beasiswa {
+  font-weight: bold;
+  padding: 10px 35px;
+  color: #bb1e2e;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.text-kuning {
+  color: #c49533;
+}
+.bg-kuning {
+  background-color: #c49533 !important;
+}
+
+.order-md-1 {
+  order: 1 !important;
+}
+.order-md-2 {
+  order: 2 !important;
+}
+
+@media (max-width: 768px) {
+  .order-md-1 {
+    order: 2 !important;
+    text-align: center;
+  }
+  .order-md-2 {
+    order: 1 !important;
+  }
+  .order-md-2 > img {
+    bottom: 0px !important;
+  }
+  .navbar-collapse.collapse.show {
+    text-align: center;
+  }
+}
+a:hover {
+  color: #bb1e2e;
 }
