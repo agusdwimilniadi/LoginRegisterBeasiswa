@@ -133,3 +133,18 @@
     bottom: 0px !important;
   }
 }
+.ms-10 {
+  margin-left: 10rem !important;
+}
+@media (max-width: 768px) {
+  .text-judul {
+    text-align: center;
+  }
+  .desc-text {
+    padding-right: 0px;
+    text-align: center;
+  }
+  .ms-10 {
+    margin-left: 0rem !important;
+  }
+}
