@@ -113,3 +113,18 @@
 .text-montserrat {
   font-family: "Montserrat", sans-serif !important;
 }
+.btn-custom-beasiswa {
+  font-weight: bold;
+  padding: 10px 35px;
+  color: #bb1e2e;
+  background-color: white;
+  border-radius: 10px;
+}
+.text-kuning {
+  color: #c49533;
+}
+.bg-kuning {
+  background-color: #c49533 !important;
+  border: transparent;
+  color: white;
+}
